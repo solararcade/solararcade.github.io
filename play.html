@@ -32,7 +32,7 @@
         alert("Game URL not provided!");
         window.location.href = "/"; // Redirect to homepage if game URL is missing
       } else {
-        const embedUrl = `${serverUrl1}/${gameUrl}`;
+        const embedUrl = `${gameUrl}`;
         document.getElementById("gameFrame").src = embedUrl;
       }
     </script>
