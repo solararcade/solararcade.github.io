@@ -1,25 +1,25 @@
 [
   {
     "name": "1v1lol",
-    "image": "https://gms.parcoil.com/logo.png",
+    "image": "https://gms.parcoil.com/1v1lol/logo.png",
     "url": "https://gms.parcoil.com/1v1lol",
     "new": false
   },
   {
     "name": "1v1space",
-    "image": "https://gms.parcoil.com/splash.png",
+    "image": "https://gms.parcoil.com/1v1space/splash.png",
     "url": "https://gms.parcoil.com/1v1space",
     "new": false
   },
   {
     "name": "10 Minutes Till Dawn",
-    "image": "https://gms.parcoil.com/splash.png",
+    "image": "https://gms.parcoil.com/10-minutes-till-dawn/splash.png",
     "url": "https://gms.parcoil.com/10-minutes-till-dawn",
     "new": false
   },
   {
     "name": "100ng",
-    "image": "https://gms.parcoil.com/100ng.jpg",
+    "image": "https://gms.parcoil.com/100ng/100ng.jpg",
     "url": "https://gms.parcoil.com/100ng",
     "new": false
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "2048 Multitask",
-    "image": "https://gms.parcoil.com/splash.png",
+    "image": "https://gms.parcoil.com/2048-multitask/splash.png",
     "url": "https://gms.parcoil.com/2048-multitask",
     "new": false
   },
