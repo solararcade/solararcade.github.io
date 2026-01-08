@@ -624,6 +624,12 @@
     "new": false
   },
   {
+    "name": "Five Nights At Freddy's 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/38.png",
+    "url": "https://raw.githubusercontent.com/genizymath/genizymath.github.io/refs/heads/main/iframe/38.html",
+    "new": false
+  },
+  {
     "name": "Flappy 2048",
     "image": "https://gms.parcoil.com/flappy-2048/favicon.ico",
     "url": "https://gms.parcoil.com/flappy-2048",
@@ -1454,7 +1460,7 @@
   {
     "name": "Stickman Hook",
     "image": "https://gms.parcoil.com/stickman-hook/unnamed.jpg",
-    "url": "https://gms.parcoil.com/stickman-hook",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/11.html",
     "new": false
   },
   {
