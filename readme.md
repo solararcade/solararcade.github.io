@@ -17,4 +17,4 @@ This project is licensed under the [MIT License](LICENSE) I think?
 
 ### Disclaimer:
 
-Lots and lots of credit goes towards the Parcoil Network for this project, they have a <a href="[url](https://github.com/parcoil/nativelite)">GitHub repository</a> which you can fork and make a game website of your own. Thanks a ton :D
+Lots and lots of credit goes towards the Parcoil Network for this project, they have a [GitHub repository](https://github.com/parcoil/nativelite) which you can fork and make a game website of your own. Thanks a ton :D
