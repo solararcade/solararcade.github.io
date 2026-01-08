@@ -1,7 +1,7 @@
 <div align=center> 
 <img title="a title" alt="Alt text" src="nativess.png" height="350" /></div>
 
-<h1 align=center> Native. Unblocked games site template </h1>
+<h1 align=center> Welcome to the home of Banana Arcade! 🍌 </h1>
 
 ### Introduction:
 
