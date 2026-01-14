@@ -1,11 +1,11 @@
 <div align=center> 
 <img title="a title" alt="Alt text" src="nativess.png" height="350" /></div>
 
-<h1 align=center> Welcome to the home of Banana Arcade! 🍌 </h1>
+<h1 align=center> Welcome to the home of solar! </h1>
 
 ### Introduction:
 
-Banana Arcade is the perfect gaming website for all your gaming needs, wether it's borrowing a friend's computer and they are waaaay to over protective and won't let you install anything, or you simply just want some fun. Banana Arcade is the place for you!
+solar is the perfect gaming website for all your gaming needs, wether it's borrowing a friend's computer and they are waaaay to over protective and won't let you install anything, or you simply just want some fun. solar is the place for you!
 
 ### Contributing:
 
