@@ -1,44 +1,5 @@
-/* ===== Muted Greys Infinite Craft–style Background ===== */
-
 body {
-  background:
-    radial-gradient(1200px 800px at 20% 10%, #d0d0d0 0%, transparent 60%),
-    radial-gradient(900px 700px at 80% 20%, #c0c0c0 0%, transparent 60%),
-    radial-gradient(1000px 800px at 50% 80%, #b5b5b5 0%, transparent 65%),
-    linear-gradient(180deg, #212121 0%, #2a2a2a 100%);
-  animation: blobMove 55s ease-in-out infinite;
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
-}
-
-body::before,
-body::after {
-  content: "";
-  position: fixed;
-  inset: -20%;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(circle at 30% 40%, rgba(180,180,180,0.12), transparent 50%),
-    radial-gradient(circle at 70% 60%, rgba(150,150,150,0.10), transparent 55%),
-    radial-gradient(circle at 50% 50%, rgba(120,120,120,0.08), transparent 60%);
-  animation: craftFloat 60s linear infinite;
-}
-
-body::after {
-  animation-duration: 90s;
-  animation-direction: reverse;
-}
-
-@keyframes blobMove {
-  0%   { background-position: 0% 0%, 0% 0%, 0% 0%, center; }
-  50%  { background-position: 6% 5%, -5% 3%, 4% -4%, center; }
-  100% { background-position: 0% 0%, 0% 0%, 0% 0%, center; }
-}
-
-@keyframes craftFloat {
-  0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(-6%, -4%) scale(1.05); }
-  100% { transform: translate(0, 0) scale(1); }
+  background-image: url("https://i.pinimg.com/736x/db/b4/37/dbb437dc4d150d2ef3d832f58a496a03.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
