@@ -1,8 +1,8 @@
 [
   {
     "name": "1v1lol",
-    "image": "https://lucdnapp.eduwing.org/cdn/1v1lol/favicon.png",
-    "url": "https://lucdnapp.eduwing.org/cdn/1v1lol",
+    "image": "https://cdn.jsdelivr.net/gh/mathlesson/mathlesson.github.io/1v1.lol-old.webp",
+    "url": "https://db.duck.theducklair.com/html/1v1lol/index.html",
     "new": false
   },
   {
@@ -258,8 +258,8 @@
     "new": false
   },
   {
-    "name": "Blox Fruits (Testing)",
-    "image": "https://cdn-icons-png.flaticon.com/512/599/599505.png",
+    "name": "Blox Fruits",
+    "image": "https://drive.google.com/u/0/drive-viewer/AKGpihaQWZDouTNWR_oSixwCzVqzfKozgswUHUAkuEuEmOVe-1AAba2er_QO6vZnb2m9Mbfh1UoH9E4jDDnd4Wwhb7q296LOAbv0p9c=s2560?auditContext=forDisplay",
     "url": "https://turbowarp.org/767817309/embed",
     "new": true
   },
@@ -654,14 +654,26 @@
     "new": false
   },
   {
-    "name": "Five Nights at Patrick's (FNAP)",
-    "image": "https://lucdnapp.eduwing.org/cdn/fnaw/splash.png",
-    "url": "https://scratch.mit.edu/projects/858124779/embed",
+    "name": "Five Nights at Freddy's (FNAF)",
+    "image": "https://cdn.jsdelivr.net/gh/mathlesson/mathlesson.github.io/fnaf.webp",
+    "url": "https://db.duck.theducklair.com/html/fnaf/index.html",
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's (FNAF)",
+    "image": "https://cdn.jsdelivr.net/gh/mathlesson/mathlesson.github.io/fnaf.webp",
+    "url": "https://db.duck.theducklair.com/html/fnaf/index.html",
+    "new": false
+  },
+  {
+    "name": "Five Nights at Squidwards's (FNAS)",
+    "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FatRzxjLG83XOnWq4Z7Kzk0LzaxLiyi49mQE-Y6LMPPpWRFDi0zVnO4Q4aeRt2VxzPt1RAptPus7F-_b5V7RrDq3DrUfOiT01RKA6WRGjoeENNVBDU7Hz7eM7RPWpLDPf9al6YeFykqpum6rF1oz_X8NXCzqzUrzrBxjHVqM7z3Ah8dE1uP5_xMUIHfhXXYG6juS21ioCdndEeM9cKmjTvRKwmNpXoVylf6gN1nL7r-HG9TU_Mt6XQrxTEaydBsc8lgqW2t0leZzCCEKZTNVr30aHvaMR9lJJCLKTok-a1vqrbdqG126zPhgQg2xzWsXuzhZewvTmQfq4I0whSXjxiy-6_2Q30kaMkScxGCbnRfBzDcU3EVAepuEqvUMKdmwyY_XhjiqHr0GxxBYhTzDRhqo43UUX3GjgBlQI3AWD7KW06BQplNk2glHwvECJFuShSADhYsjMgpt9sXLJ4Pv_jzKuO257gFELDFvr47tNNIdPrjIQx35yZe41JRbL-LTRwmKByyEI7MSHq98zHQ-zJpDSA-iT9sIcLWK0uLroKr4Tcwp_TcYh3MjDwLMmK6AummX_dq9ovae-Ct_XsG24FXPyJxv0qMqtEUWiEqxCaWKp1vLMXxNeQuL6Dwvb3hZEMjtLG8TB2ZxkdO2wAGlXoAt3iAOSPLDSc7zPZL2Fb7VlKZQH-efnrVvPaQvKlQK6bTYlAJ7sXFi2_dGozEG7dzSgPnyuLSiILUTHAHxipKxvVcioAf4jLvhdtd4acS_6sMoZnCgvyZvjK1boWpun6eQT8BS8varx1euC-u7tcIehXPhQ6rRJOxu7mnqLDNqaw8xkvwDgryQUES38PIkYjQ_hpZ9kdS3r0A4dUeoaVJzpnmx_z5G7_tG7F0FGvHu8ZgRRyZV0_A00ZwI3w2z7DM0MHt_V4Sle1_eEco1vWbwliC1NvJn0ZR2LAzsg_1qwO1qRjgnyn-Ho5FHYVFcjm1dDrdGl7kzhL5Kk-wrq2bqDOT3mXJfc-Krz3AD2-stBwpAHR0MH-iKAGOQY_PO3R2mKB3j3SkvSvSIWv90KQ7M1Ds57GBkEwfXWluF4-cVejJHVEUXIes6EZlZELaa7vWchEP28kdWZIiuuV3mq-PK5snnMakjWHLzuC-5Vcvg=w2560-h1272?auditContext=prefetch",
+    "url": "https://turbowarp.org/858124779/embed?interpolate",
     "new": false
   },
   {
     "name": "Five Nights at Wario's (FNAW)",
-    "image": "https://cdn-icons-png.flaticon.com/512/599/599505.png",
+    "image": "https://lucdnapp.eduwing.org/cdn/fnaw/splash.png",
     "url": "https://lucdnapp.eduwing.org/cdn/fnaw",
     "new": false
   },
