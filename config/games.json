@@ -780,6 +780,12 @@
     "new": false
   },
   {
+    "name": "Grow A Garden",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/603.png",
+    "url": "https://solararcade.github.io/cdn/growagarden.html",
+    "new": false
+  },
+  {
     "name": "Grindcraft",
     "image": "https://lucdnapp.eduwing.org/cdn/grindcraft/img/splash.png",
     "url": "https://lucdnapp.eduwing.org/cdn/grindcraft",
