@@ -1158,9 +1158,15 @@
     "new": false
   },
   {
-    "name": "Portal Flash",
+    "name": "Portal",
     "image": "https://solaar.vercel.app/cdn/portalflash/portaltheflashversion.jpg",
-    "url": "https://solaar.vercel.app/cdn/portalflash",
+    "url": "https://solararcade.github.io/cdn/portal1",
+    "new": false
+  },
+  {
+    "name": "Portal",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/505.png",
+    "url": "https://solararcade.github.io/cdn/pokemonamnesia",
     "new": false
   },
   {
@@ -1395,6 +1401,12 @@
     "name": "Soldier Legend",
     "image": "https://solaar.vercel.app/cdn/soldier-legend/images/logo.jpg",
     "url": "https://solaar.vercel.app/cdn/soldier-legend",
+    "new": false
+  },
+  {
+    "name": "Solar Smash",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/118.png",
+    "url": "https://solararacde.github.io/cdn/solarsmash",
     "new": false
   },
   {
@@ -1683,6 +1695,12 @@
     "name": "Veloce",
     "image": "https://solaar.vercel.app/cdn/veloce/qN6zkD.png",
     "url": "https://solaar.vercel.app/cdn/veloce",
+    "new": false
+  },
+  {
+    "name": "Undertale",
+    "image": "https://fontmeme.com/images/undertale-font.jpg",
+    "url": "https://solararcade.github.io/cdn/undertale",
     "new": false
   },
   {
