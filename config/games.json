@@ -270,6 +270,12 @@
     "new": true
   },
   {
+    "name": "NEW TESTING Blox Fruits",
+    "image": "https://lh3.googleusercontent.com/d/18OhYxRfP1C-ufhvjtybdEtXm8aehBtjy=s220?authuser=0",
+    "url": "http://the.diddy.men/embed.html#https://html5.gamedistribution.com/a0ca95e726b241f2817b028bdb32ea2a/?gd_sdk_referrer_url=https://www.kizi.com/games/blox-fruits&timestamp=-62135596800&countryCode=en&siteLocale=en&locale=en&gd_sdk_referrer_url=https%3A%2F%2Fkizi.com%2Fgames%2Fblox-fruits",
+    "new": true
+  },
+  {
     "name": "BNTTS",
     "image": "https://solaar.vercel.app/cdn/bntts/icons/icon-256.png",
     "url": "https://solaar.vercel.app/cdn/bntts",
@@ -1264,6 +1270,12 @@
     "image": "https://solaar.vercel.app/cdn/riddletransfer2/riddletransfer2.png",
     "url": "https://solaar.vercel.app/cdn/riddletransfer2",
     "new": false
+  },
+  {
+    "name": "Roblox",
+    "image": "https://the.diddy.men/stuff/games/roblox.png",
+    "url": "https://the.diddy.men//embed.html#https://nowgg.fun/apps/a/19900/b.html",
+    "new": true
   },
   {
     "name": "Rolling Forests",
