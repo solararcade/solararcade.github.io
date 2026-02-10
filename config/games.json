@@ -180,6 +180,12 @@
     "new": false
   },
   {
+    "name": "Balatro",
+    "image": "https://the.diddy.men/stuff/games/balatro.jpg",
+    "url": "https://the.diddy.men/stuff/selfhosted/balatro/index.html",
+    "new": false
+  },
+  {
     "name": "Baldi's Basics",
     "image": "https://solaar.vercel.app/cdn/baldis-basics/splash.png",
     "url": "https://solararcade.github.io/cdn/baldisbasics",
