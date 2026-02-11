@@ -1692,6 +1692,12 @@
     "new": false
   },
   {
+    "name": "TomodachiWeb",
+    "image": "https://assets-prd.ignimgs.com/2022/01/22/tomodachi-life-button-1642826994259.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80",
+    "url": "https://solararcade.github.io/cdn/tomodachiweb",
+    "new": false
+  },
+  {
     "name": "Toss the Turtle",
     "image": "https://solaar.vercel.app/cdn/tosstheturtle/tosstheturtle.png",
     "url": "https://solaar.vercel.app/cdn/tosstheturtle",
