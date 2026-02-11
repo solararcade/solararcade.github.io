@@ -181,8 +181,8 @@
   },
   {
     "name": "Balatro",
-    "image": "https://the.diddy.men/stuff/games/balatro.jpg",
-    "url": "https://the.diddy.men/stuff/selfhosted/balatro/",
+    "image": "https://larp.now/stuff/games/balatro.jpg",
+    "url": "https://larp.now/stuff/selfhosted/balatro/",
     "new": false
   },
   {
@@ -313,8 +313,8 @@
   },
   {
     "name": "Buckshot Roulette",
-    "image": "https://the.diddy.men/stuff/games/buckshot.jpg",
-    "url": "https://the.diddy.men/stuff/selfhosted/buckshot-roulette/",
+    "image": "https://larp.now/stuff/games/buckshot.jpg",
+    "url": "https://larp.now/stuff/selfhosted/buckshot-roulette/",
     "new": false
   },
   {
@@ -793,8 +793,8 @@
   },
   {
     "name": "Gorilla Tag",
-    "image": "https://the.diddy.men/stuff/games/thetag.png",
-    "url": "https://the.diddy.men/stuff/selfhosted/gtag",
+    "image": "https://larp.now/stuff/games/thetag.png",
+    "url": "https://larp.now/stuff/selfhosted/gtag",
     "new": false
   },
   {
@@ -1285,7 +1285,7 @@
   },
   {
     "name": "Roblox",
-    "image": "https://the.diddy.men/stuff/games/roblox.png",
+    "image": "https://larp.now/stuff/games/roblox.png",
     "url": "https://solararcade.github.io/cdn/robloxredirect",
     "new": true
   },
