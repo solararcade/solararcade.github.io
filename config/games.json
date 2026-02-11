@@ -1170,8 +1170,14 @@
     "new": false
   },
   {
+    "name": "Pizza Tower",
+    "image": "https://solaar.vercel.app/cdn/pixel-gun-survival/512x512.png",
+    "url": "https://larp.now/stuff/selfhosted/pizzatower/",
+    "new": false
+  },
+  {
     "name": "Polybranch",
-    "image": "https://solaar.vercel.app/cdn/polybranch/img/pic1.png",
+    "image": "https://larp.now/stuff/games/pizzatower.jpg",
     "url": "https://solaar.vercel.app/cdn/polybranch",
     "new": false
   },
