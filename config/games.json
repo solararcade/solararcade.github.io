@@ -266,12 +266,6 @@
   {
     "name": "Blox Fruits",
     "image": "https://lh3.googleusercontent.com/d/18OhYxRfP1C-ufhvjtybdEtXm8aehBtjy=s220?authuser=0",
-    "url": "https://turbowarp.org/767817309/embed",
-    "new": true
-  },
-  {
-    "name": "NEW TESTING Blox Fruits",
-    "image": "https://lh3.googleusercontent.com/d/18OhYxRfP1C-ufhvjtybdEtXm8aehBtjy=s220?authuser=0",
     "url": "https://solararcade.github.io/cdn/bloxfruitsredirect",
     "new": true
   },
@@ -1694,7 +1688,7 @@
   {
     "name": "TomodachiWeb",
     "image": "https://assets-prd.ignimgs.com/2022/01/22/tomodachi-life-button-1642826994259.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80",
-    "url": "https://solararcade.github.io/cdn/tomodachiweb",
+    "url": "https://downloads.webmulator.com/play.php?emulator=2&console_slug=nintendo-ds&rom_url=%2Froms%2F5297+-+Tomodachi+Collection+%28v01%29+%28J%29.rar&thumb_url=https://www.webmulator.com/img/roms/thumbs/tomodachi-collection-ds-thumb-V01-japan.jpg&rom_slug=tomodachi-collection-v01-j",
     "new": false
   },
   {
