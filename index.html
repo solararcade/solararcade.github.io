@@ -22,6 +22,9 @@
   }
 })();
 
+</script>
+
+<style>
 /* ===== SPACE BACKGROUND ===== */
 
 .space-bg {
@@ -83,29 +86,10 @@
   }
 }
 
-</script>
-
-<style>
-/* ===== BACKGROUND ANIMATION CSS ===== */
-
-/* Make background canvas full screen */
-#bg-animation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* pushes behind everything */
-}
-
-/* Your page content */
-.content {
+/* Make sure content is above background */
+.center, #gamesContainer, .footer {
   position: relative;
   z-index: 1;
-  color: white;
-  text-align: center;
-  padding-top: 40vh;
-  font-family: sans-serif;
 }
 </style>
     
@@ -130,18 +114,6 @@
       </a>
     </div>
     
-    <script>
-    const canvas = document.getElementById("bg-animation");
-const ctx = canvas.getContext("2d");
-
-// Make canvas full screen
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-window.addEventListener("resize", () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-});
-  </script>
+  
   </body>
 </html>
