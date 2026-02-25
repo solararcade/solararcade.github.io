@@ -21,7 +21,55 @@
     window.location.href = "maintenance.html";
   }
 })();
+
+      // ===== BACKGROUND ANIMATION JS =====
+
+// Paste the JavaScript from CodePen here
+// (Replace document.querySelector('canvas') with:)
+
+const canvas = document.getElementById("bg-animation");
+const ctx = canvas.getContext("2d");
+
+// Make canvas full screen
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
 </script>
+
+<style>
+/* ===== BACKGROUND ANIMATION CSS ===== */
+
+/* Make background canvas full screen */
+#bg-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* pushes behind everything */
+}
+
+/* Your page content */
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 40vh;
+  font-family: sans-serif;
+}
+
+/* Prevent scrollbars */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+</style>
+    
   </head>
   <body>
     <div class="center">
