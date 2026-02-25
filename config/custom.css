@@ -1,1 +1,57 @@
+/* ===== GAME CARDS - FROSTED GLASS ===== */
 
+#gamesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Each game card */
+.game {
+  background: rgba(255, 255, 255, 0.08); /* frosted glass base */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Slight lift and stronger frosted effect on hover */
+.game:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Game images - blur by default */
+.game img {
+  width: 200px; /* adjust to your liking */
+  height: auto;
+  border-radius: 15px;
+  filter: blur(3px);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Remove blur + slight zoom on hover */
+.game:hover img {
+  filter: blur(0px);
+  transform: scale(1.05);
+}
+
+/* Game names */
+.game p {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+/* Ensure cards sit above background */
+#gamesContainer, .game, .footer {
+  position: relative;
+  z-index: 1;
+}
