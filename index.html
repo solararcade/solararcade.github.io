@@ -15,7 +15,10 @@
   const maintenanceEnd = new Date("February 26, 2026 13:00:00").getTime();
   const now = new Date().getTime();
 
-  if (now < maintenanceEnd) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const isDev = urlParams.get("dev") === "solar";
+
+  if (now < maintenanceEnd && !isDev) {
     window.location.href = "maintenance.html";
   }
 })();
