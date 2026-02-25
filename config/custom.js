@@ -17,3 +17,25 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener(evt, playMusic, { once: true });
   });
 });
+
+// Wait for the DOM to load
+document.addEventListener("DOMContentLoaded", () => {
+  // Select all game elements
+  const gameElements = document.querySelectorAll("#gamesContainer .game");
+
+  gameElements.forEach((gameDiv, index) => {
+    // Assuming gamesData is your array from games.json
+    const game = gamesData[index];
+
+    // If the game is marked as new
+    if (game.new === true) {
+      const img = gameDiv.querySelector("img");
+      if (img) {
+        img.addEventListener("click", (e) => {
+          e.preventDefault(); // prevent default behavior
+          window.open(game.url, "_blank"); // open in new tab
+        });
+      }
+    }
+  });
+});
