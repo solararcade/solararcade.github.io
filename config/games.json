@@ -3,19 +3,19 @@
     "name": "Watch",
     "image": "https://i.postimg.cc/zGCgk3p5/Untitled-design-(3).png",
     "url": "https://vapor.my/page/media",
-    "new": false
+    "new": true
   },
   {
     "name": "Listen",
     "image": "https://i.postimg.cc/7Yg3KBZf/Untitled-design-(4).png",
     "url": "https://vapor.my/page/music",
-    "new": false
+    "new": true
   },
   {
     "name": "AI",
     "image": "https://i.postimg.cc/7LT0TXdD/Untitled-design-(5).png",
     "url": "https://vapor.my/page/ai",
-    "new": false
+    "new": true
   },
   {
     "name": "1v1lol",
