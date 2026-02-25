@@ -1,24 +1,37 @@
 /* Import Inter font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 
-/* Game container */
+/* Game container (slightly wider, vapor style) */
 .game {
   position: relative;
-  width: 200px;
+  width: 240px;               /* slightly wider than before */
+  height: 140px;              /* fixed height for consistency */
   margin: 20px;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 18px;
+  background: #111;           /* subtle dark background */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Game image */
+/* Hover lift effect */
+.game:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Game image (fill container without stretching) */
 .game img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;          /* fills container while maintaining aspect ratio */
   display: block;
   transition: filter 0.4s ease;
+  border-radius: 18px;
 }
 
-/* Dark overlay that appears with blur */
+/* Dark overlay on hover */
 .game::after {
   content: "";
   position: absolute;
@@ -26,34 +39,34 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0);   /* invisible by default */
+  background: rgba(0,0,0,0);  /* invisible by default */
   transition: background 0.4s ease;
-  border-radius: 15px;
+  border-radius: 18px;
   pointer-events: none;
 }
 
-/* Overlay text (hidden by default) */
+/* Overlay text (top-left) */
 .game p {
   font-family: 'Inter', system-ui, sans-serif;
   color: white;
   font-weight: 900;           /* bold */
-  font-size: 22px;            /* bigger */
+  font-size: 22px;            /* larger text */
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 12px;
+  left: 12px;
   opacity: 0;
-  transition: opacity 0.4s ease;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  text-shadow: 0 0 12px rgba(0,0,0,0.7);
   pointer-events: none;
 }
 
-/* Hover effect */
+/* Hover effects */
 .game:hover img {
   filter: blur(4px);
 }
 
 .game:hover::after {
-  background: rgba(0,0,0,0.3);  /* darkens blur */
+  background: rgba(0,0,0,0.25);  /* subtle darkening */
 }
 
 .game:hover p {
