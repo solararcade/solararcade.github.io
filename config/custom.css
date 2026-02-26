@@ -88,18 +88,25 @@
 /* SOLAR SETTINGS + THEME FIXES  */
 /* ============================= */
 
-/* Settings button using your icon */
+/* ============================= */
+/* SETTINGS ICON LIQUID GLASS    */
+/* ============================= */
 #solarSettingsButton {
-  position: fixed;
+  position: absolute;   /* no stickiness */
   top: 20px;
   left: 20px;
   z-index: 9998;
   width: 36px;
   height: 36px;
-  background: url('https://img.icons8.com/ios_filled/512/FFFFFF/settings.png') no-repeat center center;
-  background-size: 80%;
-  border: none;
+  background: rgba(255,255,255,0.05); /* liquid glass base */
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
   border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background-image: url('https://img.icons8.com/ios_filled/512/FFFFFF/settings.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
   cursor: pointer;
   transition: 0.2s ease;
 }
