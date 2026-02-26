@@ -85,86 +85,30 @@
 
 
 /* ============================= */
-/* SOLAR ONBOARDING + SETTINGS  */
+/* SOLAR SETTINGS + THEME FIXES  */
 /* ============================= */
 
-:root {
-  --solar-bg: #0f0f0f;
-  --solar-accent: #ffffff;
-}
-
-/* Apply blur when popup is open */
-body.solar-blur > *:not(#solarWelcomeOverlay):not(#solarSettingsButton) {
-  filter: blur(8px) brightness(0.6);
-  pointer-events: none;
-  user-select: none;
-}
-
-/* Fullscreen overlay */
-#solarWelcomeOverlay {
+/* Settings button using your icon */
+#solarSettingsButton {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  backdrop-filter: blur(12px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-/* Popup card */
-.solar-popup {
-  width: 520px;
-  max-width: 90%;
-  min-height: 360px;
-  background: rgba(255,255,255,0.06);
-  backdrop-filter: blur(30px);
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
-  position: relative;
-  color: white;
-  font-family: 'Inter', system-ui, sans-serif;
-  animation: fadeIn 0.3s ease;
-}
-
-/* Headings & paragraphs */
-.solar-popup h1 {
-  font-weight: 900;
-  margin-bottom: 15px;
-}
-
-.solar-popup p {
-  opacity: 0.85;
-  margin-bottom: 25px;
-  line-height: 1.5;
-}
-
-/* Next button */
-.solar-next {
-  position: absolute;
-  bottom: 25px;
-  right: 30px;
-  padding: 10px 22px;
-  border-radius: 12px;
-  background: white;
-  color: black;
-  font-weight: 700;
-  cursor: pointer;
+  top: 20px;
+  left: 20px;
+  z-index: 9998;
+  width: 36px;
+  height: 36px;
+  background: url('https://img.icons8.com/ios_filled/512/FFFFFF/settings.png') no-repeat center center;
+  background-size: 80%;
   border: none;
+  border-radius: 14px;
+  cursor: pointer;
   transition: 0.2s ease;
 }
 
-.solar-next:hover {
-  transform: scale(1.05);
+#solarSettingsButton:hover {
+  background-color: rgba(255,255,255,0.12);
 }
 
-/* Theme options inside popup */
-.solar-themes {
-  display: flex;
-  gap: 20px;
-}
-
+/* Tutorial theme cards */
 .theme-card {
   flex: 1;
   padding: 15px;
@@ -174,51 +118,35 @@ body.solar-blur > *:not(#solarWelcomeOverlay):not(#solarSettingsButton) {
   text-align: center;
   transition: 0.2s ease;
   border: 2px solid transparent;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
 .theme-card:hover {
   background: rgba(255,255,255,0.1);
 }
 
+.theme-card.selected {
+  border: 2px solid #00ffff; /* highlight selected theme */
+}
+
+/* Theme preview box */
 .theme-preview {
   height: 40px;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-/* Settings button top-left */
-#solarSettingsButton {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 9998;
-  background: rgba(255,255,255,0.08);
-  backdrop-filter: blur(20px);
-  border-radius: 14px;
-  padding: 10px 16px;
-  font-weight: 700;
-  color: white;
-  cursor: pointer;
-  transition: 0.2s ease;
+/* Top games hover text fix */
+.solar-top-games .game p {
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
-#solarSettingsButton:hover {
-  background: rgba(255,255,255,0.15);
+.solar-top-games .game:hover p {
+  opacity: 1;
 }
 
-/* Top games inside popup */
-.solar-top-games {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.solar-top-games .game {
-  width: 140px;
-  height: 90px;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+/* Force Inter font for popup */
+#solarWelcomeOverlay, #solarWelcomeOverlay * {
+  font-family: 'Inter', system-ui, sans-serif !important;
 }
