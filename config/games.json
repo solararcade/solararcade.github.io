@@ -1,3 +1,10 @@
+// Solar CDN - Build your own CDN easily.
+// This JSON includes games from all popular game websites.
+
+// WARNING: Not guaranteed to work anymore, it is no longer actively maintained.
+
+// See a demo here: http://solararcadebeta.github.io OR the repo solararcadebeta/solararcadebeta.github.io on GitHub
+
 [
   {
     "name": "Watch",
